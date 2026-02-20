@@ -25,7 +25,7 @@ on:
 
 jobs:
   emit:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 25
     outputs:
       channel: ${{ steps.compute.outputs.channel }}
